@@ -1,0 +1,17 @@
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.deps.json
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.dll
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.pdb
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.csprojAssemblyReference.cache
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.csproj.CoreCompileInputs.cache
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.AssemblyInfoInputs.cache
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.AssemblyInfo.cs
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.dll
+C:\Projects\LooseCouplingAndEf\04-PocAndStepVerification\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.pdb
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.deps.json
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.dll
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\bin\Debug\netcoreapp3.1\Data.Model.pdb
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.AssemblyInfoInputs.cache
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.AssemblyInfo.cs
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.csproj.CoreCompileInputs.cache
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.dll
+C:\Projects\LooseCouplingAndEf\LooselyCoupledForGitHub\Data.Model\obj\Debug\netcoreapp3.1\Data.Model.pdb

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "04-LooselyCoupled": {
+      "commandName": "Project",
+      "commandLineArgs": "SqlServer"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\04-CreateInMemoryData\\04-CreateInMemoryData.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\04-CreateInMemoryData\\04-CreateInMemoryData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\04-CreateInMemoryData\\04-CreateInMemoryData.csproj",
+        "projectName": "CreateInMemoryData",
+        "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\04-CreateInMemoryData\\04-CreateInMemoryData.csproj",
+        "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\04-CreateInMemoryData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\Data.Context.InMemory.csproj": {
+                "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\Data.Context.InMemory.csproj"
+              },
+              "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj": {
+                "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\Data.Context.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\Data.Context.InMemory.csproj",
+        "projectName": "Data.Context.InMemory",
+        "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\Data.Context.InMemory.csproj",
+        "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Context.InMemory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj": {
+                "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj",
+        "projectName": "Data.Model",
+        "projectPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\Data.Model.csproj",
+        "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\LooseCouplingAndEf\\LooselyCoupledForGitHub\\Data.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

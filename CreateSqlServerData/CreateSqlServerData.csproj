@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<ProjectReference Include="..\Data.Model\Data.Model.csproj" />
+		<ProjectReference Include="..\Data.Context.SqlServer\Data.Context.SqlServer.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>CreateSqlServerData</RootNamespace>
+		<AssemblyName>CreateSqlServerData</AssemblyName>
+	</PropertyGroup>
+
+
+</Project>

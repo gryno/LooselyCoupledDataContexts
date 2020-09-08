@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<ProjectReference Include="..\Data.Model\Data.Model.csproj" />
+		<ProjectReference Include="..\Data.Context.SqlLite\Data.Context.SqlLite.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>CreateSqlLiteData</RootNamespace>
+		<AssemblyName>CreateSqlLiteData</AssemblyName>
+	</PropertyGroup>
+
+</Project>

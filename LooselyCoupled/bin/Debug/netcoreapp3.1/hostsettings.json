@@ -1,0 +1,39 @@
+{
+	"LibraryToUse": "SqlServer",
+	"MetadataModelResources": [
+		{
+			"LibraryName": "SqlServer3",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\03-PocAndStepVerification\\Data\\SqlServerContext\\bin\\Debug\\netcoreapp3.1\\Data.SqlServerContext.dll",
+			"ClassName": "Data.SqlServerContext.MyDataContext"
+		},
+		{
+			"LibraryName": "SqlLite3",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\03-PocAndStepVerification\\Data\\SqlLiteContext\\bin\\Debug\\netcoreapp3.1\\Data.SqlLiteContext.dll",
+			"ClassName": "Data.SqlLiteContext.MyDataContext",
+			"CommandLineArg": "File"
+		},
+		{
+			"LibraryName": "InMemory3",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\03-PocAndStepVerification\\Data\\InMemoryContext\\bin\\Debug\\netcoreapp3.1\\Data.InMemoryContext.dll",
+			"ClassName": "Data.InMemoryContext.MyDataContext",
+			"CommandLineArg": "InMemory"
+		},
+		{
+			"LibraryName": "SqlServer",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\04-PocAndStepVerification\\Data.Context.SqlServer\\bin\\Debug\\netcoreapp3.1\\Data.Context.SqlServer.dll",
+			"ClassName": "Data.Context.SqlServer.MyDataContext"
+		},
+		{
+			"LibraryName": "SqlLite",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\04-PocAndStepVerification\\Data.Context.SqlLite\\bin\\Debug\\netcoreapp3.1\\Data.Context.SqlLite.dll",
+			"ClassName": "Data.Context.SqlLite.MyDataContext",
+			"CommandLineArg": "File"
+		},
+		{
+			"LibraryName": "InMemory",
+			"AssemblyPathAndName": "C:\\Projects\\LooseCouplingAndEf\\04-PocAndStepVerification\\Data.Context.InMemory\\bin\\Debug\\netcoreapp3.1\\Data.Context.InMemory.dll",
+			"ClassName": "Data.Context.InMemory.MyDataContext",
+			"CommandLineArg": "InMemory"
+		}
+	]
+}

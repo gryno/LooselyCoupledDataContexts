@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<ProjectReference Include="..\Data.Model\Data.Model.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>LooselyCoupled</RootNamespace>
+		<AssemblyName>LooselyCoupled</AssemblyName>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<Content Include="hostsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.5" />
+	</ItemGroup>
+
+</Project>
